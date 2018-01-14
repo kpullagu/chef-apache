@@ -2,7 +2,6 @@
 export TF_VAR_tenancy_ocid="<tenancy OCID>"
 export TF_VAR_user_ocid="<user OCID>"
 export TF_VAR_fingerprint="<PEM key fingerprint>"
-export TF_VAR_private_key_path="<path to the private key that matches the fingerprint above>"
 
 ### Region
 export TF_VAR_region="<region in which to operate, example: us-phoenix-1, us-ashburn-1, eu-frankfurt-1>"
