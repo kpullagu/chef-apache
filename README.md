@@ -95,6 +95,7 @@ Commands
 [opc@orchestration oci-chef-apache]$ ./install_terraform.sh
 
 [opc@orchestration oci-chef-apache]$ terraform --version
+
 Terraform v0.11.2
 
 [opc@orchestration oci-chef-apache]$ cat userdata/keys/APIkey_public.txt
@@ -102,6 +103,7 @@ Terraform v0.11.2
 upload this key to your OCI console to generate your API fingerprint
 
 [opc@orchestration oci-chef-apache]$ vi env.sh
+
 Modify this file with your OCIDs and the Chef Server Information
 
 [opc@orchestration oci-chef-apache]$ chmod +x env.sh
