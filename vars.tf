@@ -7,7 +7,7 @@ variable "instance_count" {
   default="1"
 }
 variable "region" {
-  default = "us-phoenix-1"
+  default = "us-ashburn-1"
 }
 
 variable "instance_image_ocid" {
@@ -23,7 +23,7 @@ variable "instance_image_ocid" {
 variable "ssh_public_key" {}
 
 variable "instance_shape" {
-  default = "VM.Standard1.4"
+  default = "VM.Standard1.2"
 }
 
 
