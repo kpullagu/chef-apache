@@ -96,7 +96,7 @@ Commands
 
 [opc@orchestration oci-chef-apache]$ terraform --version
 
-Terraform v0.11.2
+Terraform v0.11.7
 
 [opc@orchestration oci-chef-apache]$ cat userdata/keys/APIkey_public.txt
 
